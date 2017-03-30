@@ -13,7 +13,6 @@ public class Configuration extends Properties {
         if (instance == null) {
             instance = new Configuration();
         }
-        System.out.println("测试！");
         return instance;
     }
 
